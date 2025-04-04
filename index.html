@@ -3,71 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Session 2: Task</title>
+    <title>Session 3: Task</title>
 </head>
 <body>
+
+    <label for="taskName">Task Name</label>
+    <input type="text" name="taskName" id="taskName" value="Clean Working desk"><br>
+
+    <label for="note">Note</label>
+    <textarea name="note" id="note"></textarea><br>
+
+    <label for="taskDelegations">Task Delegations</label>
+    <input type="text" name="taskDelegations" id="taskDelegations" value="root"><br>
+
+    <label for="dateFrom">From</label>
+    <input type="date" name="dateFrom" id="dateFrom">
+    <input type="time" name="timeFrom" id="timeFrom"><br>
+
+    <label for="dateTo">To</label>
+    <input type="date" name="dateTo" id="dateTo">
+    <input type="time" name="timeTo" id="timeTo"><br>
+
+    <label for="allDay">All Day</label>
+    <input type="checkbox" name="allDay" id="allDay"><br>
+
+    <label for="priority">Priority</label>
+    <select name="priority" id="priority">
+        <option value="none">None</option>
+    </select><br>
+
+    <label for="calendar">Calendar</label>
+    <select name="calendar" id="calendar">
+        <option value="default">Default</option>
+    </select><br>
+
+    <label for="taskCat">Task Category</label>
+    <select name="taskCat" id="taskCat">
+        <option value="all">All</option>
+    </select><br>
+
+    <label for="taskStatus">Task Status</label>
+    <select name="taskStatus" id="taskStatus">
+        <option value="needsAction">Needs Action</option>
+    </select><br>
+
+    <label for="attachments">Attachments</label>
+    <input type="file" name="attachments">
     
-    <fieldset>
-        <legend>Your address</legend>
-        <table>
-            <tr>
-                <td><label for="firstname">First name</label></td>
-                <td><input type="text" name="firstname" id="firstname" /></td>
-            </tr>
-            <tr>
-                <td><label for="lastname">Last name</label></td>
-                <td><input type="text" name="lastname" id="lastname" /></td>
-            </tr>
-            <tr>
-                <td><label for="street">Street</label></td>
-                <td><input type="text" name="street" id="street"></td>
-            </tr>
-            <tr>
-                <td><label for="city">City</label></td>
-                <td><input type="text" name="city" id="city"></td>
-            </tr>
-        </table>
-    </fieldset>
-    <br />
-
-    <fieldset>
-        <legend>Additional details</legend>
-        <table>
-            <tr>
-                <td><label for="bio">Biography</label></td>
-                <td><textarea name="bio" id="bio"></textarea></td>
-            </tr>
-            <tr>
-                <td><label for="img">Image</label></td>
-                <td><input type="file" name="img" id="img"></td>
-            </tr>
-            <tr>
-                <td><label for="age_group">Age Group</label></td>
-                <td>
-                    <select name="" id="">
-                        <option value="nine">0 to 9 Years</option>
-                        <option value="nineteen">10 to 19 Years</option>
-                        <option value="twentynine">20 to 29</option>
-                    </select>
-                </td>
-            </tr>
-
-        </table>
-    </fieldset>
-    <br>
-
-    <fieldset>
-        <legend>Interests</legend>
-        <table>
-            <tr>
-                <td><label for="hobbies">Hobbies</label></td>
-                <td></td>
-            </tr>
-        </table>
-
-    </fieldset>
-
-
-
 </body>
 </html>
